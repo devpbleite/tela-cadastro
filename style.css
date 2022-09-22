@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono';
+}
+
+body {
+  margin: 0;
+}
+
+.screen {
+  display: flex;
+  height: 100vh;
+}
+
+.leftside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftside img {
+  width: 100%;
+
+}
+
+.rightside {
+  width: 400px;
+  text-shadow: 1px 0px 0px #CCC;
+  background-color: #f8f8ff;
+  padding: 50px;
+}
+
+.rightside label {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.rightside input {
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 14px;
+  outline: 0;
+}
+
+#button {
+  background: linear-gradient(135deg,#29323C,#2B5876,#4E4376);
+  color: #CCC;
+}
+
+.facaLogin {
+  text-align: center;
+  font-size: 15px;
+}
+
+.facaLogin a {
+  text-decoration: none;
+  color: linear-gradient(135deg,#667EEA,#6B8DD6,#8E37D7);
+}
+
+.error{
+  font-size: 11px;
+  color: red;
+  text-shadow: 1px 1px 2px #999;
+}
